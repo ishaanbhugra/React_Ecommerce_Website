@@ -7,7 +7,7 @@ const Payment = () => {
     const {totalPrice, shippingFee} =useCartContext()
   return (
     <>
-    <h1 style={{textAlign:"center"}}>PAYMENT GATEWAY</h1>
+    <h1 style={{textAlign:"center"}}>PAYMENT GATeEWAY</h1>
     <br/>
     <h4 style={{textAlign:"center"}}>MAKE PAYMENT OF <FormatPrice price={shippingFee + totalPrice} /> BY SCANNING THE QR CODE GIVEN BELOW</h4>
     <br/><br/>
