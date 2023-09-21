@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color: rgb(198, 253, 255);
+  min-height: calc(100vh - 170px) !important;
+}
+
+h1,h2,h3{
+  background-color: black;
+  color: white;
+}
+
+p{
+  text-align: justify;
+  margin:10px;
+}
+
+
+/* #root{
+  min-height: 100vh !important;
+}  */
+.navbar-lists{
+  
+
+  /* border: 2px solid black; */
+  display: flex;
+  list-style-type: none;
+  margin-top: 0px;
+}
+
+.navbar-link{
+margin-right: 100px;
+/* border: 2px solid black; */
+text-decoration: none;
+color: black;
+}
+
+.navbar{
+  justify-content: right;
+  
+}
+
+
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: navy;
+  /* #f4511e; */
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* @mixin make-container($gutter: $container-padding-x) {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+
+} */
+
+/* html, body {padding:0; margin:0; height:100%;}
+footer{position: absolute; bottom: 0; left: 0; right: 0;} */
