@@ -39,6 +39,7 @@ function App() {
           <Routes>
 
             <Route path='/' element={<Home />}></Route>
+            <Route path='/React_Ecommerce_Website' element={<Home />}></Route>
             <Route path='/about' element={<About />}></Route>
             <Route path='/contact' element={<Contact />}></Route>
             <Route path='/products' element={<Products />}></Route>
